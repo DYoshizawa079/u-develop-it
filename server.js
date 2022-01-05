@@ -21,6 +21,11 @@ const db = mysql.createConnection (
     console.log('Connected to the election database')
 );
 
+// Return all data that's in the candidates table
+db.query(`SELECT * FROM candidates`, (err, rows) => {
+    console.log(rows);
+});
+
 // Creates a GET test route
 app.get('/', (req, res) => {
     res.json({

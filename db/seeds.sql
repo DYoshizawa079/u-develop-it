@@ -10,3 +10,9 @@ VALUES
     ('Montague', 'Summers', 1),
     ('Octavia', 'Butler', 1),
     ('Unica', 'Zurn', 1);
+
+INSERT INTO parties (name, description)
+VALUES
+    ('JS Juggernauts', 'The JS Juggernauts eat, sleep, breathe JS'),
+    ('Heroes of HTML', 'They love HTML'),
+    ('Git Gurus', 'Need to resolve a merge conflict??');
